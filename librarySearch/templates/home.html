@@ -2,7 +2,14 @@
 {% load static %}
 {%block title%}Home{%endblock%}
 {%block content%}
+<nav>
+    <a href="/">Home</a>
+    <a href="/">Livros</a>
+    <a href="/">Ajuda</a>
+</nav>
 <div>
-    <h1> funcionando </h1>
+    <h1>Encontrar livros</h1>
+    <input type="text" id="search" name="title" placeholder="Procurar livro">
+    <button type="submit">buscar</button>
 </div>
 {%endblock%}
